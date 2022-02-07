@@ -2,7 +2,6 @@ package typeclasses
 
 import scalaz._
 import Scalaz._
-import java.util.Currency
 
 sealed abstract class Currency
 case object USD extends Currency
